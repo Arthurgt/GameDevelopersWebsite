@@ -195,6 +195,27 @@ header .btn:hover {
   font-size: 24px;
 }
 
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+.portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+.portfolio .card-img-top {
+  height: 100%;
+}
+
 @media (min-width: 320px) {
   nav .navbar-brand {
     font-size: 19px;
@@ -223,8 +244,8 @@ header .btn:hover {
 }
 
 @media (min-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
+  nav {
+    height: 82px;
   }
 }
 
