@@ -339,6 +339,54 @@ header .btn:hover {
   text-transform: uppercase;
 }
 
+.contact {
+  position: relative;
+  background-image: url("../img/ContactSmall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.contact h2 {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.contact .contact-item {
+  margin: 30px 0;
+}
+
+.contact .contact-item h3 {
+  color: #ddd;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact .contact-item p {
+  color: #ddd;
+}
+
+.contact .contact-item a {
+  color: #ddd;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.contact .contact-item a:hover {
+  color: #fff;
+}
+
 @media (min-width: 320px) {
   nav .navbar-brand {
     font-size: 19px;
@@ -384,6 +432,9 @@ header .btn:hover {
   }
   .team {
     background-image: url("../img/TeamLarge.jpg");
+  }
+  .contact {
+    background-image: url("../img/ContactLarge.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */
