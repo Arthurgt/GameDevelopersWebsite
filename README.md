@@ -3,7 +3,6 @@ Game Developers Website. Project to improve my responsive web design skills and 
 
 IPhone5 view:
 
-![alt text](https://raw.githubusercontent.com/Arthurgt/GamesDevelopersWebsite/master/img/github/GitHub1.png)
 
 IPadPro View:
 
