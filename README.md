@@ -1,4 +1,4 @@
-# GamesDevelopersWebsite
+# GameDevelopersWebsite
 Game Developers Website. Project to improve my responsive web design skills and Bootstrap. Created using HTML5, CSS, JavaScript, Bootstrap.
 
 IPhone5 view:
